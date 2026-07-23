@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://afterloop.in/sitemap.xml
+Sitemap: https://ar3776194-commits.github.io/afterloop-portfolio/sitemap.xml
