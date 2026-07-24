@@ -610,6 +610,24 @@ line-height:1.6;
     box-shadow:0 0 20px rgba(0,212,255,.20);
 
 }
+.launch-offer{
+    max-width:500px;
+    margin:25px auto 40px;
+    padding:16px 20px;
+    background:#181818;
+    border:1px solid #00d4ff;
+    border-radius:14px;
+    text-align:center;
+    color:#ffffff;
+    font-size:15px;
+    line-height:1.7;
+    box-shadow:0 0 15px rgba(0,212,255,.15);
+}
+
+.launch-offer strong{
+    color:#00d4ff;
+    font-size:18px;
+}
 
 .contact-card h3{
 
