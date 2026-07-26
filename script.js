@@ -18,7 +18,11 @@ if (year) {
 // ==========================
 
 // Navigation
-
+<script>
+function toggleMenu(){
+document.getElementById("navMenu").classList.toggle("show");
+}
+</script>
 // Theme Toggle
 
 // Back To Top
