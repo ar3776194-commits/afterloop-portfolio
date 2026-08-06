@@ -30,3 +30,13 @@ document.getElementById("navMenu").classList.toggle("show");
 // Contact Form
 
 // Loading Screen
+// Load Eruda only when URL ends with #debug
+if (window.location.hash === "#debug") {
+  const script = document.createElement("script");
+  script.src = "https://cdn.jsdelivr.net/npm/eruda";
+  script.onload = () => {
+    eruda.init();
+    console.log("Eruda Debug Mode Enabled");
+  };
+  document.head.appendChild(script);
+}
